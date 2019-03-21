@@ -13,7 +13,6 @@ Util.Objects["cookies"] = new function() {
 //			u.bug("scene.ready:" + u.nodeId(this));
 			var button = u.qs('.button');
 			button.addEventListener("click", function() {
-				window.localStorage.cookie_accept = true;
 				if (location.href.match(/cookies_en/)) {
 					location.href = "/en";
 				}

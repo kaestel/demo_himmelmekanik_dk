@@ -171,7 +171,6 @@ Util.Objects["letter"] = new function() {
 				if(typeof(window.localStorage) != "object" || !window.localStorage.cookie_accept) {
 					var cookie_accept = u.qs('.cookie-accept');
 					cookie_accept.addEventListener("click", function() {
-						window.localStorage.cookie_accept = true;
 						cookie_notice.style.display = 'none';
 					});
 				}

@@ -1,4 +1,4 @@
-Util.Objects["cookies"] = new function() {
+Util.Objects["login"] = new function() {
 	this.init = function(scene) {
 
 		scene.resized = function() {
@@ -11,16 +11,9 @@ Util.Objects["cookies"] = new function() {
 
 		scene.ready = function() {
 //			u.bug("scene.ready:" + u.nodeId(this));
-			var button = u.qs('.button');
-			button.addEventListener("click", function() {
-				window.localStorage.cookie_accept = true;
-				if (location.href.match(/cookies_en/)) {
-					location.href = "/en";
-				}
-				else {
-					location.href = "/";
-				}
-			});
+
+			this._form = u.qs("form", this);
+			u.f.init(this._form);
 		}
 
 		// scene is ready

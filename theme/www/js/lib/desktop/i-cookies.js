@@ -16,6 +16,7 @@ Util.Objects["cookies"] = new function() {
 			// Check if cookie has been accepted
 			var button = u.qs('.button');
 			button.addEventListener("click", function() {
+				window.localStorage.cookie_accept = true;
 				if (location.href.match(/cookies_en/)) {
 					location.href = "/en";
 				}

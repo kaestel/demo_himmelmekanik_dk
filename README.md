@@ -1,8 +1,9 @@
 # About this demo
 
 This demo is a frontend only version of the website originally launched on https://himmelmekanik.dk. 
-It is shared here, in this form as an example of the frontend work I have done over the years.
+The website was launched in October 2018. The website was Webby Awards honoree in 2019 – in the Weird category. 
 
+It is shared here, in this form, as an example of the frontend work I have done over the years.
 
 This demo only exposes the source code that was online at the time of launch, and as such publicly available. 
-It is published here with the same copyright as for the original website. 
+It is published here with the same copyright as for the original website.

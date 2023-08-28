@@ -1,4 +1,4 @@
-Copyright 2006-2017 Martin Kaestel Nielsen, https://think.dk, https://parentnode.dk (janitor-theme-minimal)
+Copyright 2006-2017, Martin Kaestel Nielsen, https://think.dk, https://parentnode.dk (Source code)
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
